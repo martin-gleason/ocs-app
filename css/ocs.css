@@ -1,0 +1,146 @@
+/* importing the following fonts: Nobile, lato. */
+
+@import url('https://fonts.googleapis.com/css?family=Nobile|Lato|Raleway|Montserrat');
+
+
+:root{
+	--blue: #090c9b;
+  --grey: #837a75;
+  --black: #0e0705;
+  --green: #a5d3c1;
+  --gold: #eebf48;
+  --offwhite: #FCFEFB;
+  --notwhite: #5c5c57;
+  --coreRed: #da705c;
+  --whitesmoke: #F5F5F5;
+  --lighter_blue: #3a3ef4;
+
+}
+
+body{
+	background: var(--whitesmoke);
+}
+
+
+tbody tr:nth-child(even) {
+  background-color:var();
+}
+
+
+h1{	
+	font-family: 'Montserrat', sans-serif;
+	color: var(--lighter_blue);
+	font-size: 1.9em;
+	text-align: left;
+		text-rendering: optimizelegibility !important;
+}
+
+h6{
+	font-family: 'Montserrat', sans-serif;
+	color: var(--black);
+	font-size: .75rem;
+	text-align: left;
+		text-rendering: optimizelegibility !important;
+}
+
+h2{
+	font-family: 'Raleway', sans-serif;
+	color: var(--blue);
+	font-size: 1.75em;
+	text-align: left;
+		text-rendering: optimizelegibility !important;
+
+}
+
+h3{
+font-family: 'Raleway', sans-serif;
+	color: var(--coreRed);
+	text-align: center;
+	font-size: 1.5em;
+		text-rendering: optimizelegibility !important;
+}
+
+h4{
+font-family: 'Raleway', sans-serif;
+	color: var(--coreRed);
+	text-align: left;
+	font-size: 1.45em;
+		text-rendering: optimizelegibility !important;
+}
+
+ul,ol,dl,p{
+	color: var(--black);
+	font-family: 'Raleway', sans-serif;
+	font-size: 1rem;
+	text-align: left;
+}
+
+a{
+	color: var(--blue);
+	text-decoration: underline;
+	}
+
+a:hover{
+	color: var(--gold);
+	}
+
+label {
+	text-decoration: underline;
+	font-weight: strong;
+}
+
+.trigger_block{
+	display: block;
+	padding: 1rem 1rem 0 0;
+	margin: 1px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+
+.runner {
+	background-color: #F77A00;
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#ffb76b), color-stop(0%,#ffa73d), color-stop(0%,#ffffff), color-stop(10%,#ffffff), color-stop(25%,#F77A00), color-stop(100%,#F77A00));
+	position: bottom;
+	top: 0px;
+	left: 0px;
+	height: 30px;
+	width: 100%;
+	text-align: left;
+}
+
+.image-half{
+	height: 50%;
+	width: 50%;
+}
+
+.image-quarter{
+	height: 25%;
+	width: 25%;
+}
+
+.image-ten{
+	height: 10%;
+	width: 10%;
+}
+
+
+.footnote{
+	font-size: .75em;
+	font-style: italic;
+}
+
+.img_25 {
+	height: 25%;
+	width: 25%;
+	float: right;
+}
+
+
+.button{
+	font-size: 1rem;
+	color: #FFFFFF;
+	background-color: var(--lighter_blue);
+	padding: 4px 4px 4px 4px;
+}
